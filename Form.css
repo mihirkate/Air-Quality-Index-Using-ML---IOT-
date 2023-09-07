@@ -14,6 +14,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 #navList {
   padding: 20px;
@@ -31,7 +33,7 @@ a {
 }
 #navPara {
   font-size: 3rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
 }
 #navItems {
   color: black;
@@ -68,6 +70,7 @@ a {
 } */
 .contentBox {
   font-size: 1.8rem;
+  font-weight: 900;
   padding: 30px;
   width: 70%;
   margin: auto;
