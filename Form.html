@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Form.css" />
+  </head>
+  <body>
+     
+    <div class="navContainer">
+        <nav>
+          <ul id="navList">
+            <li>
+              <p id="navPara">Volunteer Form </p>
+            </li>
+            <li>
+              <div id="navItems">
+                <a href="#">Home</a>
+                <a href="#">ContactUs</a>
+                <a href="#">About</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    <div class="contentBox">
+    <form action="/action_page.php">
+        <!-- Your Profile Pic  -->
+        
+      <label for="profName">Upload Your Profile </label><br />
+      <input type="file">
+      <br>
+      <br>
+      <label for="fname">First name:</label><br />
+      
+      <input type="text" id="fname" name="fname" value="John" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+     
+
+      <label for="email"> Enter email Id </label>
+      <input type="text" id="email" placeholder="xyzexample.com" />
+
+      <br />
+      <br />
+
+      <label for="password"> Enter Password</label>
+      <input type="text" id="password" placeholder="abc@12" />
+      <br />
+      <br />
+      <label for="date1"> Enter you DOB</label>
+
+      <input type="date" id="date1" />
+      <br />
+      <br />
+      <label for="check"> Your Gender : </label>
+      <input type="checkbox"  id="check">FeMale</input>
+      <input type="checkbox"  id="check">Male</input>
+      <br />
+      <br />
+
+      <input type="submit" value="Submit " />
+    
+      <br />
+    </form>
+    </div>
+  </body>
+</html>
